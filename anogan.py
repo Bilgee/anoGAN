@@ -1,9 +1,8 @@
-from keras.models import Sequential, Model
-from keras.layers import Input, Reshape, Dense, Dropout, UpSampling2D, Conv2D, Flatten
-from keras.layers.advanced_activations import LeakyReLU
-from keras.optimizers import Adam
-from keras import backend as K
-from keras import initializers
+from tensorflow.keras.models import Sequential, Model
+from tensorflow.keras.layers import Input, Reshape, Dense, Dropout, UpSampling2D, Conv2D, Flatten
+from tensorflow.keras.layers import LeakyReLU
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras import initializers
 import tensorflow as tf
 import numpy as np
 from tqdm import tqdm
